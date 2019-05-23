@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24502" started-at="2019-05-23T07:45:52Z" finished-at="2019-05-23T07:46:17Z">
+  <suite name="Default suite" duration-ms="15999" started-at="2019-05-23T08:29:33Z" finished-at="2019-05-23T08:29:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24502" started-at="2019-05-23T07:45:52Z" finished-at="2019-05-23T07:46:17Z">
+    <test name="Default test" duration-ms="15999" started-at="2019-05-23T08:29:33Z" finished-at="2019-05-23T08:29:49Z">
       <class name="lazada.vn.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="7211" started-at="2019-05-23T14:45:52Z" finished-at="2019-05-23T14:46:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="7330" started-at="2019-05-23T15:29:33Z" finished-at="2019-05-23T15:29:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchProductWithKeywordTest()[pri:1, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="searchProductWithKeywordTest" duration-ms="4193" started-at="2019-05-23T14:46:00Z" finished-at="2019-05-23T14:46:04Z">
+        <test-method status="PASS" signature="searchProductWithKeywordTest()[pri:1, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="searchProductWithKeywordTest" duration-ms="2666" started-at="2019-05-23T15:29:40Z" finished-at="2019-05-23T15:29:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductWithKeywordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-05-23T14:46:04Z" finished-at="2019-05-23T14:46:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-05-23T15:29:43Z" finished-at="2019-05-23T15:29:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="13066" started-at="2019-05-23T14:46:04Z" finished-at="2019-05-23T14:46:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="5971" started-at="2019-05-23T15:29:43Z" finished-at="2019-05-23T15:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkTitleHomePageTest()[pri:2, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="checkTitleHomePageTest" duration-ms="6" started-at="2019-05-23T14:46:17Z" finished-at="2019-05-23T14:46:17Z">
+        <test-method status="PASS" signature="checkTitleHomePageTest()[pri:2, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="checkTitleHomePageTest" duration-ms="14" started-at="2019-05-23T15:29:49Z" finished-at="2019-05-23T15:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitleHomePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-23T14:46:17Z" finished-at="2019-05-23T14:46:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-23T15:29:49Z" finished-at="2019-05-23T15:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
