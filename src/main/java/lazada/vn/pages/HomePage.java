@@ -123,10 +123,7 @@ public class HomePage extends TestBase{
 		TestUtil.waitElementVisible(selectNetwork, 40).click();
 		TestUtil.Sleep(8);
 		TestUtil.waitElementVisible(selectOperating, 50).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectFeatures, 50).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectSimSlots, 50).click();
+
 		
 		return new HomePage();
 	}
