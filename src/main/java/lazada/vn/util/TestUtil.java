@@ -10,7 +10,7 @@ import lazada.vn.base.TestBase;
 public class TestUtil extends TestBase{
 	
 	public static long PAGE_LOAD_TIMEOUT = 60;
-	public static long IMPLICIT_WAIT = 30;
+	public static long IMPLICIT_WAIT = 40;
 	
 	
 	public static void Sleep(int s){
@@ -27,7 +27,7 @@ public class TestUtil extends TestBase{
 		
 		WebDriverWait wait = new WebDriverWait(driver, seconds);
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
-		 return element;
+		return element;
 		
 	}
 	

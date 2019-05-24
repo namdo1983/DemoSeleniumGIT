@@ -2,6 +2,8 @@ package lazada.vn.testcases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -32,7 +34,7 @@ public class HomePageTest extends TestBase{
 	@AfterMethod
 	public void tearDown(){
 		
-		driver.quit();
+		//driver.quit();
 	}
 	
 	@Test(priority = 2)
@@ -46,7 +48,9 @@ public class HomePageTest extends TestBase{
 	@Test(priority = 1)
 	public void searchProductWithKeywordTest(){
 		
-		homePage.searchProductWithKeyword();
+		//homePage.searchProductWithKeyword();
+		homePage.searchProductWithSelection();
+		
 		
 	}
 
