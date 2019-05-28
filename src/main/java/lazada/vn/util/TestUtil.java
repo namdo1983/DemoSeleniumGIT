@@ -1,7 +1,6 @@
 package lazada.vn.util;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -10,7 +9,7 @@ import lazada.vn.base.TestBase;
 public class TestUtil extends TestBase{
 	
 	public static long PAGE_LOAD_TIMEOUT = 60;
-	public static long IMPLICIT_WAIT = 40;
+	public static long IMPLICIT_WAIT = 60;
 	
 	
 	public static void Sleep(int s){
@@ -23,7 +22,7 @@ public class TestUtil extends TestBase{
    }
 	
 	
-	public static WebElement waitElementVisible( WebElement webElement, int seconds){
+	public static WebElement waitElementVisiable( WebElement webElement, int seconds){
 		
 		WebDriverWait wait = new WebDriverWait(driver, seconds);
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
@@ -31,5 +30,4 @@ public class TestUtil extends TestBase{
 		
 	}
 	
-
 }

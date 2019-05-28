@@ -34,10 +34,10 @@ public class HomePageTest extends TestBase{
 	@AfterMethod
 	public void tearDown(){
 		
-		//driver.quit();
+		driver.quit();
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void checkTitleHomePageTest(){
 		
 		String checkTitleHP = homePage.checkTitleHomePage();
@@ -45,13 +45,19 @@ public class HomePageTest extends TestBase{
 		
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void searchProductWithKeywordTest(){
 		
-		//homePage.searchProductWithKeyword();
-		homePage.searchProductWithSelection();
-		
+		homePage.searchProductWithKeyword();
 		
 	}
+	
+	@Test(priority = 3)
+	public void searchProductWithSelectionTest(){
+		
+
+		homePage.searchProductWithSelection();
+	}
+		
 
 }

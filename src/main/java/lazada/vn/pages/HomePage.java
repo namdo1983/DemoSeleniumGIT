@@ -27,7 +27,7 @@ public class HomePage extends TestBase{
 	WebElement hoverMainCategory;
 	
 	@FindBy (xpath=" //span[contains(text(),'Mobiles')] ")
-	WebElement hoverSubCategory;
+	WebElement clickSubCategory;
 	
 	@FindBy (xpath=" //span[contains(text(),'Samsung')] ")
 	WebElement selectBrand;
@@ -47,7 +47,7 @@ public class HomePage extends TestBase{
 	@FindBy (xpath=" //span[contains(text(),'More than 5.6 Inch')] ")
 	WebElement selectPhoneScreen;
 	
-	@FindBy (xpath=" //span[contains(text(),'4GB')] ")
+	@FindBy (xpath=" //span[contains(text(),'4G - LTE')] ")
 	WebElement selectRAM;
 	
 	@FindBy (xpath=" //span[contains(text(),'4G')] ")
@@ -62,6 +62,14 @@ public class HomePage extends TestBase{
 	@FindBy (xpath=" //span[contains(text(),'Dual')] ")
 	WebElement selectSimSlots;
 	
+	@FindBy (xpath=" //div[@data-item-id='164926136'] ")
+	WebElement selectFilteredPhone;
+	
+	@FindBy (xpath=" //div[@data-item-id='274650637'] ")
+	WebElement clickScooterItem;
+	
+	@FindBy (xpath=" //span[contains(text(),'Add to Cart')] ")
+	WebElement clickAddToCartBtn;
 	
 
 	// Initializing The Page Objects:
@@ -90,6 +98,9 @@ public class HomePage extends TestBase{
 		focusSearch.sendKeys(Keys.ENTER);
 		focusSearch.build().perform();
 		
+		TestUtil.waitElementVisiable(clickScooterItem, 10);
+		clickScooterItem.click();
+		
 		return new HomePage();
 	}
 	
@@ -99,34 +110,35 @@ public class HomePage extends TestBase{
 		Actions hovermainCategory = new Actions(driver);
 		hovermainCategory.moveToElement(hoverMainCategory);
 		hovermainCategory.build().perform();
+				
+		//Click on Mobiles option	 after hover category	
+		TestUtil.waitElementVisiable(clickSubCategory, 10);
+		clickSubCategory.click();
 		
+		//Click on Brand option
+		TestUtil.waitElementVisiable(selectBrand, 10);
+		selectBrand.click();
 		
-		// Hover on sub Category
-		//Actions hoversubCategory = new Actions(driver);
-		//hoversubCategory.moveToElement(hoverSubCategory).build().perform();		
-		TestUtil.waitElementVisible(hoverSubCategory, 10).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectBrand, 20).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectService, 20).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectLocation, 20).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectStorageCapacity, 30).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectColorFamily, 40).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectPhoneScreen, 40).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectRAM, 40).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectNetwork, 40).click();
-		TestUtil.Sleep(8);
-		TestUtil.waitElementVisible(selectOperating, 50).click();
-
+		//Click on Service option
+		TestUtil.waitElementVisiable(selectService, 10);
+		selectService.click();
+		
+		//Click on Storage option
+		TestUtil.waitElementVisiable(selectStorageCapacity, 10);
+		selectStorageCapacity.click();
+		
+		//Click on Color option
+		TestUtil.waitElementVisiable(selectColorFamily, 10);
+		selectColorFamily.click();
+		
+		//Click on Phone Screen option
+		TestUtil.waitElementVisiable(selectPhoneScreen, 10);
+		selectPhoneScreen.click();
+		
+		//Click on RAM 4G option
+		TestUtil.waitElementVisiable(selectRAM, 10);
+		selectRAM.click();
 		
 		return new HomePage();
-	}
-	
-	
+		}
 }

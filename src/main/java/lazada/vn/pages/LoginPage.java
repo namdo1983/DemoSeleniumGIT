@@ -24,15 +24,13 @@ public class LoginPage extends TestBase {
 	@FindBy (xpath="//span[@class='nc_iconfont btn_slide']")
 	WebElement sliderLoginBtn;
 	
-	
-	
-	
-	
+
 	//Initializing The Page Objects:
 	public LoginPage(){
 		
 		PageFactory.initElements(driver, this);
 	}
+	
 	
 	
 	public void navigateLoginPage(){
@@ -45,10 +43,6 @@ public class LoginPage extends TestBase {
 		
 		return driver.getTitle();
 	}
-	
-	
-	
-	
 	
 	public LoginPage loginwithEmailRegistered(String username, String password){
 	

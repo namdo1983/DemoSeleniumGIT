@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33509" started-at="2019-05-28T04:41:06Z" finished-at="2019-05-28T04:41:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33509" started-at="2019-05-28T04:41:06Z" finished-at="2019-05-28T04:41:39Z">
+      <class name="lazada.vn.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="6640" started-at="2019-05-28T11:41:06Z" finished-at="2019-05-28T11:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitleHomePageTest()[pri:1, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="checkTitleHomePageTest" duration-ms="451" started-at="2019-05-28T11:41:12Z" finished-at="2019-05-28T11:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="619" started-at="2019-05-28T11:41:13Z" finished-at="2019-05-28T11:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="6979" started-at="2019-05-28T11:41:13Z" finished-at="2019-05-28T11:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithKeywordTest()[pri:2, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="searchProductWithKeywordTest" duration-ms="3448" started-at="2019-05-28T11:41:20Z" finished-at="2019-05-28T11:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithKeywordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="658" started-at="2019-05-28T11:41:24Z" finished-at="2019-05-28T11:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="setUp" is-config="true" duration-ms="6746" started-at="2019-05-28T11:41:24Z" finished-at="2019-05-28T11:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProductWithSelectionTest()[pri:3, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="searchProductWithSelectionTest" duration-ms="7332" started-at="2019-05-28T11:41:31Z" finished-at="2019-05-28T11:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithSelectionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="616" started-at="2019-05-28T11:41:38Z" finished-at="2019-05-28T11:41:39Z">
+=======
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
@@ -100,6 +143,7 @@ Session ID: 3eb9023b1a317d3143ecb2a22e607dd0
           </reporter-output>
         </test-method> <!-- checkTitleHomePageTest -->
         <test-method status="PASS" signature="tearDown()[pri:0, instance:lazada.vn.testcases.HomePageTest@2a2d45ba]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-05-24T17:00:55Z" finished-at="2019-05-24T17:00:55Z">
+>>>>>>> branch 'master' of https://github.com/namdo1983/DemoSeleniumGIT.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
