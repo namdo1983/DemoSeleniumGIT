@@ -139,9 +139,6 @@ public class HomePage extends TestBase{
 		TestUtil.waitElementVisiable(selectRAM, 10);
 		selectRAM.click();
 		
-
 		return new HomePage();
-	}
-	
-	
+		}
 }

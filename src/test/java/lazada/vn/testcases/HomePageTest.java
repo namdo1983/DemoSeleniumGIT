@@ -55,9 +55,9 @@ public class HomePageTest extends TestBase{
 	@Test(priority = 3)
 	public void searchProductWithSelectionTest(){
 		
+
 		homePage.searchProductWithSelection();
-		
-		
 	}
+		
 
 }

@@ -30,13 +30,4 @@ public class TestUtil extends TestBase{
 		
 	}
 	
-	public static WebElement waitElementClickable( WebElement webElement, int seconds){
-		
-		WebDriverWait wait = new WebDriverWait(driver, seconds);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
-		return element;
-		
-	}
-	
-
 }
