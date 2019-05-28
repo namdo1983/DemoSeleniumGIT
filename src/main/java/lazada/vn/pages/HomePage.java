@@ -65,6 +65,9 @@ public class HomePage extends TestBase{
 	@FindBy (xpath=" //div[@data-item-id='164926136'] ")
 	WebElement selectFilteredPhone;
 	
+	@FindBy (xpath=" //div[@data-item-id='274650637'] ")
+	WebElement clickScooterItem;
+	
 	@FindBy (xpath=" //span[contains(text(),'Add to Cart')] ")
 	WebElement clickAddToCartBtn;
 	
@@ -94,6 +97,9 @@ public class HomePage extends TestBase{
 		focusSearch.sendKeys("scooter");	
 		focusSearch.sendKeys(Keys.ENTER);
 		focusSearch.build().perform();
+		
+		TestUtil.waitElementVisiable(clickScooterItem, 10);
+		clickScooterItem.click();
 		
 		return new HomePage();
 	}
