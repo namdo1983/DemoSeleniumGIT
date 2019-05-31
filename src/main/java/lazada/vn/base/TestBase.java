@@ -24,7 +24,7 @@ public class TestBase {
 		try{
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\workspace\\DemoGITRepo\\src\\main\\java\\lazada\\vn\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\GIT_Project\\DemoSeleniumGIT\\src\\main\\java\\lazada\\vn\\config\\config.properties");
 			prop.load(ip);
 			
 		} catch (FileNotFoundException e) {

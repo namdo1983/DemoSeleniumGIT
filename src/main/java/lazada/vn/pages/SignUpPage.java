@@ -44,7 +44,7 @@ public class SignUpPage extends TestBase {
 	
 	public void navigateSignUpPage(){
 		
-		TestUtil.waitElementVisiable(inputPwd, 10);
+		TestUtil.waitElementVisiable(clickSignUpLink, 10);
 		clickSignUpLink.click();
 	}
 	
@@ -62,13 +62,13 @@ public class SignUpPage extends TestBase {
 
 		//code to do something on new window
 		driver.manage().window().maximize();
-		userEmail.sendKeys("namdo2407001@gmail.com");
+		userEmail.sendKeys("testing.selenium2407@gmail.com");
 		nextBtn.click();
-		inputPwd.sendKeys("Bobo2407");
+		inputPwd.sendKeys("namgmct2407");
 		nextInputPwd.sendKeys(Keys.ENTER);
 		driver.switchTo().window(parentHandle); // switch back to the original window
 		
-		TestUtil.waitElementVisiable(clickMyAccount, 10);
+		TestUtil.waitElementVisiable(clickMyAccount, 15);
 		clickMyAccount.click();
 		TestUtil.waitElementVisiable(clickManageMyAccount, 10);
 		clickManageMyAccount.click();
